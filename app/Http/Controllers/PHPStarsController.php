@@ -9,10 +9,10 @@ class PHPStarsController extends Controller
 {
     public function __invoke(Request $request)
     {
-        $data = PHPStars::all();
+        $repositories = PHPStars::all();
 
         return view('phpstars', [
-            'data' => $data
+            'repositories' => $repositories
         ]);
     }
 }
