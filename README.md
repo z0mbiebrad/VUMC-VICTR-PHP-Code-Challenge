@@ -1,7 +1,6 @@
 
-![PHP All-Stars](https://github.com/z0mbiebrad/VUMC-VICTR-PHP-Code-Challenge/assets/87036647/17f0973d-a366-4013-a39f-6359ec6a1e28)
-![PHP All-Stars (1)](https://github.com/z0mbiebrad/VUMC-VICTR-PHP-Code-Challenge/assets/87036647/e78126c1-1486-43ea-a0f9-a63f0e3787d6)
-
+![PHP All-Sta![PHP All-Stars (3)](https://github.com/z0mbiebrad/VUMC-VICTR-PHP-Code-Challenge/assets/87036647/ea7d406d-e4bb-47c2-aea0-4f9e78a867aa)
+rs (2)](https://github.com/z0mbiebrad/VUMC-VICTR-PHP-Code-Challenge/assets/87036647/7d4edcad-e283-4697-8bce-772aa14bb4da)
 
 Installation Requirements:
 Laravel, MySQL, Composer
