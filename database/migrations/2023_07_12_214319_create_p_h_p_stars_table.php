@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('p_h_p_stars', function (Blueprint $table) {
             $table->id();
+            $table->integer('repository_ID')->unique();
+            $table->string('name');
+            $table->string('url');
+            $table->string('created_date');
+            $table->string('last_push_date');
+            $table->text('description');
+            $table->integer('number_of_stars');
             $table->timestamps();
         });
     }
