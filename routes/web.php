@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\PHPStarsController;
+use App\Http\Controllers\RepositoriesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [PHPStarsController::class, 'index']);
+Route::get('/', [RepositoriesController::class, 'index']);
 
-Route::get('/update', [PHPStarsController::class, 'update'])->name('update');
+Route::get('/update', [RepositoriesController::class, 'update'])->name('update');

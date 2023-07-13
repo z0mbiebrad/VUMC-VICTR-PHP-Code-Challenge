@@ -2,20 +2,20 @@
 
 namespace App\Console\Commands;
 
-use App\Models\PHPStars;
+use App\Models\Repositories;
 use Illuminate\Console\Command;
 use \Illuminate\Support\Facades\Http;
 
 
-class FetchPHPStars extends Command
+class FetchRepositories extends Command
 {
-    protected $signature = 'app:fetch-p-h-p-stars';
+    protected $signature = 'fetch:repositories';
 
     protected $description = 'fetches most starred php repositories on GitHub';
 
     public function handle()
     {
-        PHPStars::truncate();
+        Repositories::truncate();
 
         $githubResponse = HTTP::get("https://api.github.com/search/repositories?q=language:php&sort=stars");
         $githubResults = $githubResponse->body();
@@ -23,7 +23,7 @@ class FetchPHPStars extends Command
 
         foreach ($githubData->items as $item) {
             try {
-                PHPStars::create([
+                Repositories::create([
                     'repository_ID' => $item->id,
                     'name' => $item->name,
                     'url' => $item->html_url,
