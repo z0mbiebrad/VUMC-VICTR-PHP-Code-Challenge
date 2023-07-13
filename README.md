@@ -1,6 +1,6 @@
 
-![PHP All-Stars (1)](https://github.com/z0mbiebrad/VUMC-VICTR-PHP-Code-Challenge/assets/87036647/59964fdd-0426-46bb-a0f3-a89a9602dae6)
-![PHP All-Stars](https://github.com/z0mbiebrad/VUMC-VICTR-PHP-Code-Challenge/assets/87036647/eb39f9d6-8d3f-4979-842b-d73a17e90246)
+![PHP All-Stars](https://github.com/z0mbiebrad/VUMC-VICTR-PHP-Code-Challenge/assets/87036647/17f0973d-a366-4013-a39f-6359ec6a1e28)
+![PHP All-Stars (1)](https://github.com/z0mbiebrad/VUMC-VICTR-PHP-Code-Challenge/assets/87036647/e78126c1-1486-43ea-a0f9-a63f0e3787d6)
 
 
 Installation Requirements:
