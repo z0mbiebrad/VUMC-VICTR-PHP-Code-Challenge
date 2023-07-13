@@ -3,8 +3,10 @@
 ![PHP All-Stars](https://github.com/z0mbiebrad/VUMC-VICTR-PHP-Code-Challenge/assets/87036647/eb39f9d6-8d3f-4979-842b-d73a17e90246)
 
 
-Installation Requirements
+Installation Requirements:
 Laravel, MySQL, Composer
+
+Installation Steps
 
 1. Clone repository
 2. Change directory to root of the app
