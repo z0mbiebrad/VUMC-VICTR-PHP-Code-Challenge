@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('p_h_p_stars', function (Blueprint $table) {
+        Schema::create('repositories', function (Blueprint $table) {
             $table->id();
             $table->integer('repository_ID')->unique();
             $table->string('name');
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('p_h_p_stars');
+        //
     }
 };
