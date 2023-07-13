@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PHPStarsController::class, 'index']);
+
+Route::get('/update', [PHPStarsController::class, 'update'])->name('update');

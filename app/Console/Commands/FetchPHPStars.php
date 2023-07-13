@@ -15,6 +15,8 @@ class FetchPHPStars extends Command
 
     public function handle()
     {
+        PHPStars::truncate();
+
         $githubResponse = HTTP::get("https://api.github.com/search/repositories?q=language:php&sort=stars");
         $githubResults = $githubResponse->body();
         $githubData = json_decode($githubResults);
