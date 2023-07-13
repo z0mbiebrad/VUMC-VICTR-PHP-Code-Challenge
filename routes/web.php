@@ -14,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', RepositoriesController::class)->name('update');
+Route::get('/', [RepositoriesController::class, 'index'])->name('update');
+
+Route::get('/update', [RepositoriesController::class, 'update'])->name('update');
