@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', PHPStarsController::class)->name('phpstars');
+Route::get('/', [PHPStarsController::class, 'index']);
