@@ -13,9 +13,13 @@
 </head>
 
 <body>
-    <h2 class="text-center mb-3">Top Starred PHP Repositories</h2>
+    <div class="text-center">
+        <h2 class=" mb-1">Top Starred PHP Repositories</h2>
+        <a href="{{ route('update') }}">Update Database</a>
+    </div>
 
-    <table class="table-bordered th, table-bordered td { border: 2px solid black } mx-auto table-sm w-25 text-left">
+    <table
+        class="mt-2 table-bordered th, table-bordered td { border: 2px solid black } mx-auto table-sm w-25 text-left">
         @foreach ($repositories as $repository)
             <div class="accordion" id="accordion">
                 <tr class="accordion-item">
